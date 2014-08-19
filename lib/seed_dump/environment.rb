@@ -27,7 +27,7 @@ class SeedDump
                       import: (env['IMPORT'] == 'true'))
 
         append = true
-      end
+      end # each model
     end
   end
 end

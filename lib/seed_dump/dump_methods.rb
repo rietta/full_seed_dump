@@ -68,6 +68,7 @@ class SeedDump
     def write_records_to_io(records, io, options)
       # One use of seed_dumper is to support converting a Rails application from MySQL to PostgreSQL.
       # When doing so, preserving the id, created_at, and updated_at attributes is really important.
+      # - FSR, 8/2014
       options[:exclude] ||= [] #[:id, :created_at, :updated_at]
 
       method = options[:import] ? 'import' : 'create!'

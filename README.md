@@ -1,3 +1,8 @@
+# Personal fork, for a particular project
+NOTE: This is my personal fork for a particular project. You are probably interested in the main project at https://github.com/rroblak/seed_dump.
+
+All my changes are MIT licensed though, so if you are interested then that's okay too.
+
 Seed Dump
 ========
 
